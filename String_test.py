@@ -1,6 +1,6 @@
 import pytest
 import String_gen
-
+# Test
 
 def test_str_type():
     assert type(String_gen.str_gen()) == str #Checks if the functions return is a string datatype

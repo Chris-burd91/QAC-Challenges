@@ -14,3 +14,4 @@ print(July_Devops_Cohort[4])  #What is special is the 5th person along is index 
 print(July_Devops_Cohort.count("Chris"))
 
 #comment
+#second comment

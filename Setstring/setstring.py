@@ -13,8 +13,15 @@ def setstring(input):
     sort_set = sorted(convert_set)
     convert_back = [str(s) for s in sort_set]
     joined_string = " ".join(convert_back)
-    #convert_set.sort()
+    return joined_string
+
+
+
+#def setstring(input):
+  #  words = [word for words in input.split(" ")]
+   # return " ".join(sorted(list))
         
 
-    return joined_string
+    
+
 print(setstring("why hello cabbage goodbye basketball"))

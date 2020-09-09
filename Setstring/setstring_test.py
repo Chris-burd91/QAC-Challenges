@@ -9,3 +9,6 @@ def test_setstring_2():
 
 def test_setstring_3():
     assert setstring.setstring("challenge of the day") == "challenge day of the"
+
+def test_setstring_4():
+    assert setstring.setstring("hello hello") == "hello"

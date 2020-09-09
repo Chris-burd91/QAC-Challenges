@@ -1,6 +1,6 @@
 
 
-class Rectangle():
+class Rectangle:
 
     def __init__(self,h,l):
         self.height = h
